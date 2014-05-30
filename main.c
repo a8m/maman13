@@ -45,20 +45,15 @@ int sumOfBits(int length,...)
 
 int main()
 {
-    int sum1, sum2, sum3;
     printf(DESC);
 
-    sum1 = sumOfBits(3, 10, 7, 3);
-    printf(LINE);
-    printf(RESULT, sum1);
+    printf(RESULT, sumOfBits(3, 10, 7, 3));
     
-    sum2 = sumOfBits(4, 10, 10, 10, 10);
-    printf(LINE);
-    printf(RESULT, sum2);
+    printf(RESULT, sumOfBits(4, 10, 10, 10, 10));
     
-    sum3 = sumOfBits(5, 100, 39, 47, 61, 36);
-    printf(LINE);
-    printf(RESULT " \n", sum3);
+    printf(RESULT, sumOfBits(5, 100, 39, 47, 61, 36));
+    
+    printf(RESULT " \n", sumOfBits(5, 100, 39, 47, 61, 36));
     
     
     return EXIT;
