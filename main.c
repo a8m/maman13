@@ -53,7 +53,7 @@ int main()
     
     printf(RESULT, sumOfBits(5, 100, 39, 47, 61, 36));
     
-    printf(RESULT " \n", sumOfBits(5, 100, 39, 47, 61, 36));
+    printf(RESULT " \n", sumOfBits(5, 87, 95, 93, 125, 85));
     
     
     return EXIT;
