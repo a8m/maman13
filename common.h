@@ -18,8 +18,8 @@
 int sumOfBits(int length,...);
 
 #define EXIT 0
-#define DESC "\nPROGRAM DESCRIPTION:\n*Numbers: Decimal numbers\n*Action: Bitwise and(&) operator\n*Result: Decimal number"
-#define LINE "\n=============================================================\n"
-#define RESULT "Result: %d\n"
+#define DESC "\nPROGRAM DESCRIPTION:\n*Numbers: Decimal numbers\n*Action: Bitwise and(&) operator\n*Result: Decimal number\n"
+#define LINE "=============================================================\n"
+#define RESULT "\nResult: %d\n"
 
 #endif
